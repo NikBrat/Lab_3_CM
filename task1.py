@@ -7,11 +7,11 @@ def plotting(x, y, name):
     fig = plt.figure(figsize=(8.0, 6.0))
     plt.plot(x, y, color='red')
     plt.xlabel('t')
-    plt.ylabel('g(t)')
-    plt.title('График функции g(t)')
+    plt.ylabel('u(t)')
+    plt.title('График сигнала u(t)')
     plt.grid()
     plt.show()
-    # fig.savefig(f'{name}', dpi=200)
+    fig.savefig(f'{name}', dpi=200)
 
 
 def fourier_transformation(f):
@@ -53,5 +53,7 @@ original = initial_function(interval)
 noisy_signal = np.vectorize(noisy_signal)
 rng = np.random.default_rng(27)
 rnd = rng.random((interval.size,))
-received = noisy_signal(interval, original, rnd, b=1, c=0, d=0)
-plotting(interval, received, 'Noisy')
+
+b = 0.25
+received = noisy_signal(interval, original, rnd, b, c=0, d=0)
+plotting(interval, received, f'Noisy_{b}')
