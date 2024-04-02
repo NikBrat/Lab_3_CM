@@ -2,38 +2,56 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def dot_product(f, g):
-    """Вычисление скалярного произведения"""
-    x = np.linspace(-6, 6, 1000)
-    dx = x[1] - x[0]
-    return np.dot(f, g(x)) * dx
+def plotting(x, y, name):
+    """Создание графиков"""
+    fig = plt.figure(figsize=(8.0, 6.0))
+    plt.plot(x, y, color='red')
+    plt.xlabel('t')
+    plt.ylabel('g(t)')
+    plt.title('График функции g(t)')
+    plt.grid()
+    plt.show()
+    # fig.savefig(f'{name}', dpi=200)
 
 
-def fourier_transformation(x):
+def fourier_transformation(f):
     """Определение функции для вычисления фурье-образа функции"""
-    image = lambda v: dot_product(x, lambda t: np.exp(-1j * 2 * np.pi * v * t))
-    return np.vectorize(image, otypes=[np.complex_])
+    image = np.fft.fftshift(np.fft.fft(f))
+    return image
 
 
-def fourier_transformation_inverse(x):
+def fourier_transformation_inverse(f):
     """Определение функции для вычисления фурье-образа функции"""
-    inverse_function = lambda t: (x, lambda v: np.exp(1j * 2*np.pi * v * t))
-    return np.vectorize(inverse_function, otypes=[np.complex_])
+    inverse_function = np.fft.ifft(np.fft.ifftshift(f))
+    return inverse_function
 
 
-def function(t):
+def initial_function(t):
     """
     Initial function
 
     g(t) = Q if t1 <= t <= t2 || 0
 
     Q = 3
-    t1, t2 = -1, 5
+    t1, t2 = -2, 5
     """
-    if 1 <= t <= 5:
+    if -2 <= t <= 5:
         return 3
     else:
         return 0
 
 
+def noisy_signal(t: np.ndarray, g, rndm, b, c, d):
+    signal = g + b*(rndm - 0.5) + c*np.sin(d*t)
+    return signal
+
+
+initial_function = np.vectorize(initial_function)
 interval = np.linspace(-6, 6, 1000)
+original = initial_function(interval)
+
+noisy_signal = np.vectorize(noisy_signal)
+rng = np.random.default_rng(27)
+rnd = rng.random((interval.size,))
+received = noisy_signal(interval, original, rnd, b=1, c=0, d=0)
+plotting(interval, received, 'Noisy')
