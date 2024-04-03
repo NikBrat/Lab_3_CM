@@ -6,6 +6,7 @@ def plotting(x, y, name, option, y2=None, y3=None):
     """Создание графиков"""
     match option:
         case 0:
+            # Исходная функция
             fig = plt.figure()
             plt.plot(x, y, color='blue')
             plt.xlabel('t')
@@ -13,6 +14,7 @@ def plotting(x, y, name, option, y2=None, y3=None):
             plt.title(f'График исходного сигнала g(t)')
             plt.grid()
         case 1:
+            # Полученный сигнал
             fig = plt.figure()
             plt.plot(x, y, color='red')
             plt.xlabel('t')
@@ -20,6 +22,7 @@ def plotting(x, y, name, option, y2=None, y3=None):
             plt.title('График искаженного сигнала u(t)')
             plt.grid()
         case 2:
+            # Модули Фурье-образов сигнала и его среза
             fig, ax = plt.subplots(1, 2, figsize=(10, 6), layout='constrained')
             fig.suptitle('Графики модулей $\hat{u}$(\u03BD) и его отфильтрованного сигнала (среза)', size='x-large')
             ax[0].plot(x, np.abs(y), color='red')
@@ -34,6 +37,7 @@ def plotting(x, y, name, option, y2=None, y3=None):
             ax[0].set_title('График модуля $\hat{u}$(\u03BD)')
             ax[1].set_title('График модуля отфильтрованного сигнала')
         case 3:
+            # Полученный, очищенный и исходные сигналы
             fig = plt.figure()
             plt.plot(x, y, color='red', label='Искаженный сигнал')
             plt.plot(x, y2, color='green', label='Отфильтрованный сигнал')
@@ -44,6 +48,7 @@ def plotting(x, y, name, option, y2=None, y3=None):
             plt.grid()
             plt.legend(loc='best')
         case 4:
+            # Модули Фурье-образов исходной и очищенного сигналов
             fig = plt.figure()
             plt.plot(x, y2, color='green', label='|$\hat{g}$(\u03BD)|')
             plt.plot(x, y, label='|$\hat{f}$(\u03BD)|(clipped)', linestyle='--', color='blue')
@@ -65,19 +70,20 @@ def dot_product(f, g, mn, mx):
 
 
 def fourier_transformation(f):
+    """Определение функции для фурье-преобразования"""
     image = lambda v: dot_product(f, lambda t: np.exp(-1j * 2 * np.pi * v * t), -6, 6)
     return np.vectorize(image, otypes=[np.complex_])
 
 
 def fourier_transformation_inverse(f):
-    """Определение функции для вычисления фурье-образа функции"""
+    """Определение функции для обратного фурье-преобразования"""
     image = lambda t: dot_product(f, lambda v: np.exp(1j * 2 * np.pi * v * t), -3, 3)
     return np.vectorize(image)
 
 
 def initial_function(t):
     """
-    Initial function
+    Initial function.
 
     g(t) = Q if t1 <= t <= t2 || 0
 
@@ -91,6 +97,7 @@ def initial_function(t):
 
 
 def noisy_signal(t: np.ndarray, g, rndm, b, c, d):
+    """Функция для искажения исходного сигнала"""
     signal = g + b*(rndm - 0.5) + c*np.sin(d*t)
     return signal
 
@@ -105,19 +112,25 @@ noisy_signal = np.vectorize(noisy_signal)
 rng = np.random.default_rng(27)
 rnd = rng.random((interval.size,))
 
-bs = [0.25, 1, 4]
+bs = [0]
 clp_freqs = [200, 300, 400]
-cs = [0]
-ds = [0]
+cs = [4]
+ds = [4]
+cf = -0.805
+cl = -0.55
 for b in bs:
     for c in cs:
         for d in ds:
             received = noisy_signal(interval, original, rnd, b, c, d)
-            # plotting(interval, received, f'Noisy_{b}_{c}_{d}', 1)
+            plotting(interval, received, f'Noisy_{b}_{c}_{d}', 1)
             for clp_freq in clp_freqs:
                 fourier = fourier_transformation(received)(frequencies)
                 fourier_clipped = np.concatenate((np.zeros(clp_freq), fourier[clp_freq:-clp_freq], np.zeros(clp_freq)))
-                # plotting(frequencies, np.abs(fourier),f'Fourier_Image_{b}{frequencies[clp_freq]}', 2, y2=np.abs(fourier_clipped))
-                plotting(frequencies, np.abs(fourier_clipped), f'Fourier_Image_Comparison_{b}_{frequencies[clp_freq]}', 4, y2=np.abs(original_fourier))
-                # fourier_inverse = fourier_transformation_inverse(fourier_clipped)(interval)
-                # plotting(interval, received, f'Cleaned_{b}_{c}_{d}_{frequencies[clp_freq]}', 3,  y2=fourier_inverse, y3=original)
+                bg = np.where(frequencies <= cf)[0][-1]
+                ed = np.where(frequencies >= cl)[0][0]
+                fourier_clipped[bg:ed] = 0.0
+                fourier_clipped[-ed:-bg] = 0.0
+                plotting(frequencies, np.abs(fourier),f'Fourier_Image_{b}_{c}_{d}_{frequencies[clp_freq]}_{cf}:{cl}', 2, y2=np.abs(fourier_clipped))
+                plotting(frequencies, np.abs(fourier_clipped), f'Fourier_Image_Comparison_{b}_{c}_{d}_{frequencies[clp_freq]}_{cf}:{cl}', 4, y2=np.abs(original_fourier))
+                fourier_inverse = fourier_transformation_inverse(fourier_clipped)(interval)
+                plotting(interval, received, f'Cleaned_{b}_{c}_{d}_{frequencies[clp_freq]}__{cf}:{cl}', 3,  y2=fourier_inverse, y3=original)
