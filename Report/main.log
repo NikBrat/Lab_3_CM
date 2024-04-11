@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.29)  9 APR 2024 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.3.29)  11 APR 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -978,308 +978,371 @@ File: media/1 task/specific_freq/Noisy_0_2_4.png Graphic file (type png)
 <use media/1 task/specific_freq/Noisy_0_2_4.png>
 Package pdftex.def Info: media/1 task/specific_freq/Noisy_0_2_4.png  used on input line 214.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
-<media/1 task/specific_freq/Fourier_Image_0_2_2_-0,805:-0,156.png, id=218, 722.7pt x 433.62pt>
-File: media/1 task/specific_freq/Fourier_Image_0_2_2_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_0_2_2_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_0_2_2_-0,805:-0,156.png  used on input line 224.
+<media/1 task/specific_freq/Fourier_Image_0_2_2_-1,0_-0,22_-2,99_-2,7.png, id=218, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_0_2_2_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_0_2_2_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_0_2_2_-1,0_-0,22_-2,99_-2,7.png  used on input line 224.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-0,805:-0,156.png, id=219, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-0,805:-0,156.png  used on input line 231.
+<media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-1,0_-0,22_-2,99_-2,7.png, id=219, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-1,0_-0,22_-2,99_-2,7.png  used on input line 231.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/specific_freq/Fourier_Image_0_4_2_-0,805:-0,156.png, id=220, 722.7pt x 433.62pt>
-File: media/1 task/specific_freq/Fourier_Image_0_4_2_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_0_4_2_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_0_4_2_-0,805:-0,156.png  used on input line 238.
+<media/1 task/specific_freq/Fourier_Image_0_4_2_-1,0_-0,22_-2,99_-2,7.png, id=220, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_0_4_2_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_0_4_2_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_0_4_2_-1,0_-0,22_-2,99_-2,7.png  used on input line 238.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-0,805:-0,156.png, id=221, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-0,805:-0,156.png  used on input line 245.
+<media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-1,0_-0,22_-2,99_-2,7.png, id=221, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-1,0_-0,22_-2,99_-2,7.png  used on input line 245.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
  [16
 
- <./media/1 task/specific_freq/Noisy_0_4_2.png> <./media/1 task/specific_freq/Noisy_0_2_4.png>] [17 <./media/1 task/specific_freq/Fourier_Image_0_2_2_-0,805:-0,156.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-0,805:-0,156.png>] [18 <./media/1 task/specific_freq/Fourier_Image_0_4_2_-0,805:-0,156.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-0,805:-0,156.png>]
-<media/1 task/specific_freq/Fourier_Image_0_2_4_-0,805:-0,156.png, id=246, 722.7pt x 433.62pt>
-File: media/1 task/specific_freq/Fourier_Image_0_2_4_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_0_2_4_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_0_2_4_-0,805:-0,156.png  used on input line 254.
+ <./media/1 task/specific_freq/Noisy_0_4_2.png> <./media/1 task/specific_freq/Noisy_0_2_4.png>] [17 <./media/1 task/specific_freq/Fourier_Image_0_2_2_-1,0_-0,22_-2,99_-2,7.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-1,0_-0,22_-2,99_-2,7.png>] [18 <./media/1 task/specific_freq/Fourier_Image_0_4_2_-1,0_-0,22_-2,99_-2,7.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-1,0_-0,22_-2,99_-2,7.png>]
+<media/1 task/specific_freq/Fourier_Image_0_2_4_-1,0_-0,22_-2,99_-2,7.png, id=246, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_0_2_4_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_0_2_4_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_0_2_4_-1,0_-0,22_-2,99_-2,7.png  used on input line 254.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-0,805:-0,156.png, id=247, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-0,805:-0,156.png  used on input line 261.
+<media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-1,0_-0,22_-2,99_-2,7.png, id=247, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-1,0_-0,22_-2,99_-2,7.png  used on input line 261.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/specific_freq/Cleaned_0_2_2_-0,805:-0,156.png, id=248, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Cleaned_0_2_2_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Cleaned_0_2_2_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Cleaned_0_2_2_-0,805:-0,156.png  used on input line 270.
-(pdftex.def)             Requested size: 393.15065pt x 294.86298pt.
-<media/1 task/specific_freq/Cleaned_0_4_2_-0,805:-0,156.png, id=249, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Cleaned_0_4_2_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Cleaned_0_4_2_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Cleaned_0_4_2_-0,805:-0,156.png  used on input line 277.
-(pdftex.def)             Requested size: 393.15065pt x 294.86298pt.
+<media/1 task/specific_freq/Cleaned_0_2_2_-1,0_-0,22_-2,99_-2,7.png, id=248, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_0_2_2_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_0_2_2_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_0_2_2_-1,0_-0,22_-2,99_-2,7.png  used on input line 270.
+(pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
  [19
 
- <./media/1 task/specific_freq/Fourier_Image_0_2_4_-0,805:-0,156.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-0,805:-0,156.png>]
+ <./media/1 task/specific_freq/Fourier_Image_0_2_4_-1,0_-0,22_-2,99_-2,7.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-1,0_-0,22_-2,99_-2,7.png>]
+<media/1 task/specific_freq/Cleaned_0_4_2_-1,0_-0,22_-2,99_-2,7.png, id=258, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_0_4_2_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_0_4_2_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_0_4_2_-1,0_-0,22_-2,99_-2,7.png  used on input line 277.
+(pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
+ [20 <./media/1 task/specific_freq/Cleaned_0_2_2_-1,0_-0,22_-2,99_-2,7.png> <./media/1 task/specific_freq/Cleaned_0_4_2_-1,0_-0,22_-2,99_-2,7.png>]
+<media/1 task/specific_freq/Cleaned_0_2_4_-1,0_-0,22_-2,99_-2,7.png, id=267, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_0_2_4_-1,0_-0,22_-2,99_-2,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_0_2_4_-1,0_-0,22_-2,99_-2,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_0_2_4_-1,0_-0,22_-2,99_-2,7.png  used on input line 286.
+(pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
+ [21
 
-LaTeX Warning: Text page 20 contains only floats.
+ <./media/1 task/specific_freq/Cleaned_0_2_4_-1,0_-0,22_-2,99_-2,7.png>]
 
-[20 <./media/1 task/specific_freq/Cleaned_0_2_2_-0,805:-0,156.png> <./media/1 task/specific_freq/Cleaned_0_4_2_-0,805:-0,156.png>]
-<media/1 task/specific_freq/Cleaned_0_2_4_-0,805:-0,156.png, id=267, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Cleaned_0_2_4_-0,805:-0,156.png Graphic file (type png)
-<use media/1 task/specific_freq/Cleaned_0_2_4_-0,805:-0,156.png>
-Package pdftex.def Info: media/1 task/specific_freq/Cleaned_0_2_4_-0,805:-0,156.png  used on input line 286.
-(pdftex.def)             Requested size: 393.15065pt x 294.86298pt.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 295.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 293.
+(hyperref)                removing `math shift' on input line 295.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 293.
-
-<media/1 task/specific_freq/Noisy_1_4_2.png, id=268, 462.528pt x 346.896pt>
+<media/1 task/specific_freq/Noisy_1_4_2.png, id=274, 462.528pt x 346.896pt>
 File: media/1 task/specific_freq/Noisy_1_4_2.png Graphic file (type png)
 <use media/1 task/specific_freq/Noisy_1_4_2.png>
-Package pdftex.def Info: media/1 task/specific_freq/Noisy_1_4_2.png  used on input line 299.
+Package pdftex.def Info: media/1 task/specific_freq/Noisy_1_4_2.png  used on input line 301.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
-<media/1 task/specific_freq/Noisy_2_4_2.png, id=269, 462.528pt x 346.896pt>
+<media/1 task/specific_freq/Noisy_2_4_2.png, id=275, 462.528pt x 346.896pt>
 File: media/1 task/specific_freq/Noisy_2_4_2.png Graphic file (type png)
 <use media/1 task/specific_freq/Noisy_2_4_2.png>
-Package pdftex.def Info: media/1 task/specific_freq/Noisy_2_4_2.png  used on input line 306.
+Package pdftex.def Info: media/1 task/specific_freq/Noisy_2_4_2.png  used on input line 308.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
-[21
+[22
 
- <./media/1 task/specific_freq/Cleaned_0_2_4_-0,805:-0,156.png>] [22 <./media/1 task/specific_freq/Noisy_1_4_2.png> <./media/1 task/specific_freq/Noisy_2_4_2.png>]
+ <./media/1 task/specific_freq/Noisy_1_4_2.png> <./media/1 task/specific_freq/Noisy_2_4_2.png>]
 <media/1 task/specific_freq/Noisy_3_4_2.png, id=284, 462.528pt x 346.896pt>
 File: media/1 task/specific_freq/Noisy_3_4_2.png Graphic file (type png)
 <use media/1 task/specific_freq/Noisy_3_4_2.png>
-Package pdftex.def Info: media/1 task/specific_freq/Noisy_3_4_2.png  used on input line 315.
+Package pdftex.def Info: media/1 task/specific_freq/Noisy_3_4_2.png  used on input line 317.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
  [23
 
  <./media/1 task/specific_freq/Noisy_3_4_2.png>]
-<media/1 task/specific_freq/Fourier_Image_1_4_2_-0,8:-0,153.png, id=292, 722.7pt x 433.62pt>
-File: media/1 task/specific_freq/Fourier_Image_1_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_1_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_1_4_2_-0,8:-0,153.png  used on input line 326.
+<media/1 task/specific_freq/Fourier_Image_1_4_2_-0,6_-0,22_-2,99_-1,6.png, id=292, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_1_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_1_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_1_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 328.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,8:-0,153.png, id=293, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,8:-0,153.png  used on input line 334.
+<media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,6_-0,22_-2,99_-1,6.png, id=293, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 336.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/specific_freq/Fourier_Image_2_4_2_-0,8:-0,153.png, id=294, 722.7pt x 433.62pt>
-File: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_2_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,8:-0,153.png  used on input line 341.
+<media/1 task/specific_freq/Fourier_Image_2_4_2_-0,6_-0,22_-2,99_-1,6.png, id=294, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_2_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 343.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,8:-0,153.png, id=296, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,8:-0,153.png  used on input line 350.
+<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,6_-0,22_-2,99_-1,6.png, id=296, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 352.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/specific_freq/Fourier_Image_3_4_2_-0,8:-0,153.png, id=297, 722.7pt x 433.62pt>
-File: media/1 task/specific_freq/Fourier_Image_3_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_3_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_3_4_2_-0,8:-0,153.png  used on input line 359.
+<media/1 task/specific_freq/Fourier_Image_3_4_2_-0,6_-0,22_-2,99_-1,6.png, id=297, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_3_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_3_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_3_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 361.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,8:-0,153.png, id=298, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,8:-0,153.png  used on input line 366.
+<media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,6_-0,22_-2,99_-1,6.png, id=298, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 368.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
  [24
 
- <./media/1 task/specific_freq/Fourier_Image_1_4_2_-0,8:-0,153.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,8:-0,153.png>] [25 <./media/1 task/specific_freq/Fourier_Image_2_4_2_-0,8:-0,153.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,8:-0,153.png>] [26 <./media/1 task/specific_freq/Fourier_Image_3_4_2_-0,8:-0,153.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,8:-0,153.png>]
-<media/1 task/specific_freq/Cleaned_1_4_2_-0,8:-0,153.png, id=324, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Cleaned_1_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Cleaned_1_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Cleaned_1_4_2_-0,8:-0,153.png  used on input line 375.
+ <./media/1 task/specific_freq/Fourier_Image_1_4_2_-0,6_-0,22_-2,99_-1,6.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,6_-0,22_-2,99_-1,6.png>] [25 <./media/1 task/specific_freq/Fourier_Image_2_4_2_-0,6_-0,22_-2,99_-1,6.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,6_-0,22_-2,99_-1,6.png>] [26 <./media/1 task/specific_freq/Fourier_Image_3_4_2_-0,6_-0,22_-2,99_-1,6.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,6_-0,22_-2,99_-1,6.png>]
+<media/1 task/specific_freq/Cleaned_1_4_2_-0,6_-0,22_-2,99_-1,6.png, id=324, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_1_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_1_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_1_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 377.
 (pdftex.def)             Requested size: 393.15065pt x 294.86298pt.
-<media/1 task/specific_freq/Cleaned_2_4_2_-0,8:-0,153.png, id=325, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Cleaned_2_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Cleaned_2_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-0,8:-0,153.png  used on input line 382.
+<media/1 task/specific_freq/Cleaned_2_4_2_-0,6_-0,22_-2,99_-1,6.png, id=325, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_2_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_2_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 384.
 (pdftex.def)             Requested size: 393.15065pt x 294.86298pt.
  [27
 
- <./media/1 task/specific_freq/Cleaned_1_4_2_-0,8:-0,153.png> <./media/1 task/specific_freq/Cleaned_2_4_2_-0,8:-0,153.png>]
-<media/1 task/specific_freq/Cleaned_3_4_2_-0,8:-0,153.png, id=334, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Cleaned_3_4_2_-0,8:-0,153.png Graphic file (type png)
-<use media/1 task/specific_freq/Cleaned_3_4_2_-0,8:-0,153.png>
-Package pdftex.def Info: media/1 task/specific_freq/Cleaned_3_4_2_-0,8:-0,153.png  used on input line 391.
+ <./media/1 task/specific_freq/Cleaned_1_4_2_-0,6_-0,22_-2,99_-1,6.png> <./media/1 task/specific_freq/Cleaned_2_4_2_-0,6_-0,22_-2,99_-1,6.png>]
+<media/1 task/specific_freq/Cleaned_3_4_2_-0,6_-0,22_-2,99_-1,6.png, id=334, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_3_4_2_-0,6_-0,22_-2,99_-1,6.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_3_4_2_-0,6_-0,22_-2,99_-1,6.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_3_4_2_-0,6_-0,22_-2,99_-1,6.png  used on input line 393.
 (pdftex.def)             Requested size: 393.15065pt x 294.86298pt.
  [28
 
- <./media/1 task/specific_freq/Cleaned_3_4_2_-0,8:-0,153.png>]
+ <./media/1 task/specific_freq/Cleaned_3_4_2_-0,6_-0,22_-2,99_-1,6.png>]
 <media/1 task/specific_freq/Image_2_4_2_Begi.png, id=346, 462.528pt x 346.896pt>
 File: media/1 task/specific_freq/Image_2_4_2_Begi.png Graphic file (type png)
 <use media/1 task/specific_freq/Image_2_4_2_Begi.png>
-Package pdftex.def Info: media/1 task/specific_freq/Image_2_4_2_Begi.png  used on input line 406.
+Package pdftex.def Info: media/1 task/specific_freq/Image_2_4_2_Begi.png  used on input line 408.
 (pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
-<media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72.png, id=347, 722.7pt x 433.62pt>
-File: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72.png  used on input line 419.
+<media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,55.png, id=347, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,55.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,55.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,55.png  used on input line 417.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72.png, id=348, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72.png  used on input line 426.
-(pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72.png, id=349, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72.png Graphic file (type png)
-<use media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72.png>
-Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72.png  used on input line 433.
-(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
  [29
 
- <./media/1 task/specific_freq/Image_2_4_2_Begi.png> <./media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72.png>]
-<media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png, id=358, 722.7pt x 433.62pt>
-File: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png  used on input line 446.
-(pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png, id=359, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png Graphic file (type png)
-<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png>
-Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png  used on input line 453.
+ <./media/1 task/specific_freq/Image_2_4_2_Begi.png> <./media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,55.png>]
+<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,55.png, id=356, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,55.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,55.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,55.png  used on input line 426.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
- [30 <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72.png> <./media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72.png>] [31 <./media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png>]
-<media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png, id=377, 462.528pt x 346.896pt>
-File: media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png Graphic file (type png)
-<use media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png>
-Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png  used on input line 462.
+<media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,55.png, id=357, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,55.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,55.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,55.png  used on input line 433.
 (pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
- [32
+<media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,8.png, id=358, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,8.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,8.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,8.png  used on input line 440.
+(pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
+<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,8.png, id=359, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,8.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,8.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,8.png  used on input line 447.
+(pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
+<media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,8.png, id=360, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,8.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,8.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,8.png  used on input line 454.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+<media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-1,0.png, id=361, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-1,0.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-1,0.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-1,0.png  used on input line 461.
+(pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
+<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-1,0.png, id=362, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-1,0.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-1,0.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-1,0.png  used on input line 468.
+(pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
+<media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-1,0.png, id=363, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-1,0.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-1,0.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-1,0.png  used on input line 475.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+ [30
 
- <./media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png>]
-<media/1 task/low_freq/Noisy_4_2_2.png, id=387, 462.528pt x 346.896pt>
+ <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,55.png> <./media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,55.png>] [31 <./media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,8.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,8.png>] [32 <./media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,8.png> <./media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-1,0.png>] [33 <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-1,0.png> <./media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-1,0.png>]
+<media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png, id=398, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png  used on input line 490.
+(pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
+<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png, id=399, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png  used on input line 497.
+(pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
+<media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png, id=400, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png  used on input line 504.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+<media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png, id=401, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png  used on input line 511.
+(pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
+<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png, id=402, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png  used on input line 518.
+(pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
+<media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png, id=403, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png  used on input line 525.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+<media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png, id=404, 722.7pt x 433.62pt>
+File: media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png  used on input line 532.
+(pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
+<media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png, id=405, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png Graphic file (type png)
+<use media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png>
+Package pdftex.def Info: media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png  used on input line 539.
+(pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
+<media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png, id=406, 462.528pt x 346.896pt>
+File: media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png Graphic file (type png)
+<use media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png>
+Package pdftex.def Info: media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png  used on input line 546.
+(pdftex.def)             Requested size: 300.63962pt x 225.47972pt.
+ [34
+
+ <./media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png>] [35 <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png> <./media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png>] [36 <./media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png> <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png>] [37 <./media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png> <./media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png>] [38 <./media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png> <./media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png>] [39
+
+]
+<media/1 task/low_freq/Noisy_4_2_2.png, id=453, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Noisy_4_2_2.png Graphic file (type png)
 <use media/1 task/low_freq/Noisy_4_2_2.png>
-Package pdftex.def Info: media/1 task/low_freq/Noisy_4_2_2.png  used on input line 479.
+Package pdftex.def Info: media/1 task/low_freq/Noisy_4_2_2.png  used on input line 564.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<media/1 task/low_freq/Fourier_Image_4_2_2_-0,4.png, id=388, 722.7pt x 433.62pt>
+<media/1 task/low_freq/Fourier_Image_4_2_2_-0,4.png, id=454, 722.7pt x 433.62pt>
 File: media/1 task/low_freq/Fourier_Image_4_2_2_-0,4.png Graphic file (type png)
 <use media/1 task/low_freq/Fourier_Image_4_2_2_-0,4.png>
-Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_4_2_2_-0,4.png  used on input line 490.
+Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_4_2_2_-0,4.png  used on input line 575.
 (pdftex.def)             Requested size: 361.3491pt x 216.80946pt.
-<media/1 task/low_freq/Fourier_Image_Comparison_4_2_2_-0,4.png, id=389, 462.528pt x 346.896pt>
+<media/1 task/low_freq/Fourier_Image_Comparison_4_2_2_-0,4.png, id=455, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2_-0,4.png Graphic file (type png)
 <use media/1 task/low_freq/Fourier_Image_Comparison_4_2_2_-0,4.png>
-Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2_-0,4.png  used on input line 497.
+Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2_-0,4.png  used on input line 582.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/low_freq/Fourier_Image_4_2_2-0,5975975975975976.png, id=390, 722.7pt x 433.62pt>
+<media/1 task/low_freq/Fourier_Image_4_2_2-0,5975975975975976.png, id=456, 722.7pt x 433.62pt>
 File: media/1 task/low_freq/Fourier_Image_4_2_2-0,5975975975975976.png Graphic file (type png)
 <use media/1 task/low_freq/Fourier_Image_4_2_2-0,5975975975975976.png>
-Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_4_2_2-0,5975975975975976.png  used on input line 504.
+Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_4_2_2-0,5975975975975976.png  used on input line 589.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-0,5975975975975976.png, id=391, 462.528pt x 346.896pt>
+<media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-0,5975975975975976.png, id=457, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-0,5975975975975976.png Graphic file (type png)
 <use media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-0,5975975975975976.png>
-Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-0,5975975975975976.png  used on input line 511.
+Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-0,5975975975975976.png  used on input line 596.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/low_freq/Fourier_Image_4_2_2-1,1981981981981982.png, id=392, 722.7pt x 433.62pt>
+<media/1 task/low_freq/Fourier_Image_4_2_2-1,1981981981981982.png, id=458, 722.7pt x 433.62pt>
 File: media/1 task/low_freq/Fourier_Image_4_2_2-1,1981981981981982.png Graphic file (type png)
 <use media/1 task/low_freq/Fourier_Image_4_2_2-1,1981981981981982.png>
-Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_4_2_2-1,1981981981981982.png  used on input line 518.
+Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_4_2_2-1,1981981981981982.png  used on input line 603.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
-<media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,1981981981981982.png, id=393, 462.528pt x 346.896pt>
+<media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,1981981981981982.png, id=459, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,1981981981981982.png Graphic file (type png)
 <use media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,1981981981981982.png>
-Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,1981981981981982.png  used on input line 525.
+Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,1981981981981982.png  used on input line 610.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/low_freq/Fourier_Image_4_2_2-1,7987987987987988.png, id=394, 722.7pt x 433.62pt>
+<media/1 task/low_freq/Fourier_Image_4_2_2-1,7987987987987988.png, id=460, 722.7pt x 433.62pt>
 File: media/1 task/low_freq/Fourier_Image_4_2_2-1,7987987987987988.png Graphic file (type png)
 <use media/1 task/low_freq/Fourier_Image_4_2_2-1,7987987987987988.png>
-Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_4_2_2-1,7987987987987988.png  used on input line 532.
+Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_4_2_2-1,7987987987987988.png  used on input line 617.
 (pdftex.def)             Requested size: 397.48622pt x 238.49173pt.
- [33
+ [40
 
- <./media/1 task/low_freq/Noisy_4_2_2.png> <./media/1 task/low_freq/Fourier_Image_4_2_2_-0,4.png>] [34 <./media/1 task/low_freq/Fourier_Image_Comparison_4_2_2_-0,4.png> <./media/1 task/low_freq/Fourier_Image_4_2_2-0,5975975975975976.png>] [35 <./media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-0,5975975975975976.png> <./media/1 task/low_freq/Fourier_Image_4_2_2-1,1981981981981982.png>] [36 <./media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,1981981981981982.png> <./media/1 task/low_freq/Fourier_Image_4_2_2-1,7987987987987988.png>]
-<media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,7987987987987988.png, id=427, 462.528pt x 346.896pt>
+ <./media/1 task/low_freq/Noisy_4_2_2.png> <./media/1 task/low_freq/Fourier_Image_4_2_2_-0,4.png>] [41 <./media/1 task/low_freq/Fourier_Image_Comparison_4_2_2_-0,4.png> <./media/1 task/low_freq/Fourier_Image_4_2_2-0,5975975975975976.png>] [42 <./media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-0,5975975975975976.png> <./media/1 task/low_freq/Fourier_Image_4_2_2-1,1981981981981982.png>] [43 <./media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,1981981981981982.png> <./media/1 task/low_freq/Fourier_Image_4_2_2-1,7987987987987988.png>]
+<media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,7987987987987988.png, id=494, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,7987987987987988.png Graphic file (type png)
 <use media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,7987987987987988.png>
-Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,7987987987987988.png  used on input line 541.
+Package pdftex.def Info: media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,7987987987987988.png  used on input line 626.
 (pdftex.def)             Requested size: 254.39117pt x 190.79338pt.
-<media/1 task/low_freq/Cleaned_4_2_2_-0,4.png, id=428, 462.528pt x 346.896pt>
+<media/1 task/low_freq/Cleaned_4_2_2_-0,4.png, id=495, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Cleaned_4_2_2_-0,4.png Graphic file (type png)
 <use media/1 task/low_freq/Cleaned_4_2_2_-0,4.png>
-Package pdftex.def Info: media/1 task/low_freq/Cleaned_4_2_2_-0,4.png  used on input line 551.
+Package pdftex.def Info: media/1 task/low_freq/Cleaned_4_2_2_-0,4.png  used on input line 636.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
- [37
+ [44
 
  <./media/1 task/low_freq/Fourier_Image_Comparison_4_2_2-1,7987987987987988.png> <./media/1 task/low_freq/Cleaned_4_2_2_-0,4.png>]
-<media/1 task/low_freq/Cleaned_4_2_2_-0,5975975975975976.png, id=438, 462.528pt x 346.896pt>
+<media/1 task/low_freq/Cleaned_4_2_2_-0,5975975975975976.png, id=504, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Cleaned_4_2_2_-0,5975975975975976.png Graphic file (type png)
 <use media/1 task/low_freq/Cleaned_4_2_2_-0,5975975975975976.png>
-Package pdftex.def Info: media/1 task/low_freq/Cleaned_4_2_2_-0,5975975975975976.png  used on input line 560.
+Package pdftex.def Info: media/1 task/low_freq/Cleaned_4_2_2_-0,5975975975975976.png  used on input line 645.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
-<media/1 task/low_freq/Cleaned_4_2_2_-1,1981981981981982.png, id=439, 462.528pt x 346.896pt>
+<media/1 task/low_freq/Cleaned_4_2_2_-1,1981981981981982.png, id=505, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Cleaned_4_2_2_-1,1981981981981982.png Graphic file (type png)
 <use media/1 task/low_freq/Cleaned_4_2_2_-1,1981981981981982.png>
-Package pdftex.def Info: media/1 task/low_freq/Cleaned_4_2_2_-1,1981981981981982.png  used on input line 567.
+Package pdftex.def Info: media/1 task/low_freq/Cleaned_4_2_2_-1,1981981981981982.png  used on input line 652.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
- [38
+ [45
 
  <./media/1 task/low_freq/Cleaned_4_2_2_-0,5975975975975976.png> <./media/1 task/low_freq/Cleaned_4_2_2_-1,1981981981981982.png>]
-<media/1 task/low_freq/Cleaned_4_2_2_-1,7987987987987988.png, id=448, 462.528pt x 346.896pt>
+<media/1 task/low_freq/Cleaned_4_2_2_-1,7987987987987988.png, id=514, 462.528pt x 346.896pt>
 File: media/1 task/low_freq/Cleaned_4_2_2_-1,7987987987987988.png Graphic file (type png)
 <use media/1 task/low_freq/Cleaned_4_2_2_-1,7987987987987988.png>
-Package pdftex.def Info: media/1 task/low_freq/Cleaned_4_2_2_-1,7987987987987988.png  used on input line 576.
+Package pdftex.def Info: media/1 task/low_freq/Cleaned_4_2_2_-1,7987987987987988.png  used on input line 661.
 (pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
-) [39
+) [46
 
  <./media/1 task/low_freq/Cleaned_4_2_2_-1,7987987987987988.png>] (2task.tex
-<media/2 task/Source_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png, id=455, 722.7pt x 361.35pt>
+<media/2 task/Source_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png, id=521, 722.7pt x 361.35pt>
 File: media/2 task/Source_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png Graphic file (type png)
 <use media/2 task/Source_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png>
 Package pdftex.def Info: media/2 task/Source_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png  used on input line 7.
 (pdftex.def)             Requested size: 361.3491pt x 180.67456pt.
-<media/2 task/Image_Orig.png, id=456, 462.528pt x 346.896pt>
+<media/2 task/Image_Orig.png, id=522, 462.528pt x 346.896pt>
 File: media/2 task/Image_Orig.png Graphic file (type png)
 <use media/2 task/Image_Orig.png>
 Package pdftex.def Info: media/2 task/Image_Orig.png  used on input line 16.
 (pdftex.def)             Requested size: 277.51894pt x 208.13919pt.
- [40 <./media/2 task/Source_Звуковая волна.png> <./media/2 task/Image_Orig.png>]
-<media/2 task/Image_CLose.png, id=465, 609.9588pt x 437.2335pt>
+ [47 <./media/2 task/Source_Звуковая волна.png> <./media/2 task/Image_Orig.png>]
+<media/2 task/Image_CLose.png, id=531, 609.9588pt x 437.2335pt>
 File: media/2 task/Image_CLose.png Graphic file (type png)
 <use media/2 task/Image_CLose.png>
 Package pdftex.def Info: media/2 task/Image_CLose.png  used on input line 27.
 (pdftex.def)             Requested size: 500.76852pt x 358.9741pt.
-<media/2 task/Images_Comparison.png, id=466, 805.0878pt x 549.9747pt>
+<media/2 task/Images_Comparison.png, id=532, 805.0878pt x 549.9747pt>
 File: media/2 task/Images_Comparison.png Graphic file (type png)
 <use media/2 task/Images_Comparison.png>
 Package pdftex.def Info: media/2 task/Images_Comparison.png  used on input line 36.
 (pdftex.def)             Requested size: 500.76852pt x 342.08852pt.
-<media/2 task/detailed_comparison.png, id=467, 722.7pt x 361.35pt>
+<media/2 task/detailed_comparison.png, id=533, 722.7pt x 361.35pt>
 File: media/2 task/detailed_comparison.png Graphic file (type png)
 <use media/2 task/detailed_comparison.png>
 Package pdftex.def Info: media/2 task/detailed_comparison.png  used on input line 43.
 (pdftex.def)             Requested size: 500.76852pt x 250.38489pt.
- [41
+ [48
 
  <./media/2 task/Image_CLose.png>]
 
-LaTeX Warning: Text page 42 contains only floats.
+LaTeX Warning: Text page 49 contains only floats.
 
-[42 <./media/2 task/Images_Comparison.png> <./media/2 task/detailed_comparison.png>]
-<media/2 task/Cleaned_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png, id=484, 722.7pt x 361.35pt>
+[49 <./media/2 task/Images_Comparison.png> <./media/2 task/detailed_comparison.png>]
+<media/2 task/Cleaned_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png, id=551, 722.7pt x 361.35pt>
 File: media/2 task/Cleaned_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png Graphic file (type png)
 <use media/2 task/Cleaned_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png>
 Package pdftex.def Info: media/2 task/Cleaned_^^d0^^97^^d0^^b2^^d1^^83^^d0^^ba^^d0^^be^^d0^^b2^^d0^^b0^^d1^^8f ^^d0^^b2^^d0^^be^^d0^^bb^^d0^^bd^^d0^^b0.png  used on input line 57.
 (pdftex.def)             Requested size: 433.62334pt x 216.81168pt.
-<media/2 task/Wave_comparison.png, id=485, 656.2116pt x 486.3771pt>
+<media/2 task/Wave_comparison.png, id=552, 656.2116pt x 486.3771pt>
 File: media/2 task/Wave_comparison.png Graphic file (type png)
 <use media/2 task/Wave_comparison.png>
 Package pdftex.def Info: media/2 task/Wave_comparison.png  used on input line 64.
 (pdftex.def)             Requested size: 393.73pt x 291.8285pt.
-)) [43
+)) [50
 
  <./media/2 task/Cleaned_Звуковая волна.png> <./media/2 task/Wave_comparison.png>] (main.aux (unformal_title.aux) (content.aux))
  ***********
@@ -1290,17 +1353,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D0C1107CE61C75B0BAD340194EB842EB;3150.
  ) 
 Here is how much of TeX's memory you used:
- 15027 strings out of 474424
- 264870 string characters out of 5738896
- 1932493 words of memory out of 5000000
- 36966 multiletter control sequences out of 15000+600000
+ 15142 strings out of 474424
+ 272662 string characters out of 5738896
+ 1934493 words of memory out of 5000000
+ 37062 multiletter control sequences out of 15000+600000
  572272 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,95p,1692b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,95p,1692b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1000.pk> </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/lasl1440.pk> </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1440.pk> </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2074.pk> </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1440.pk> </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1728.pk> </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm1728.pk> </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx2488.pk> </Users/nbr/Library/Application Support/MiKTeX/texmfs/data/fonts/pk/ljfour/lh/lh-t2a/dpi600/larm2488.pk></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (43 pages, 7562921 bytes).
+Output written on main.pdf (50 pages, 8984408 bytes).
 PDF statistics:
- 867 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 476 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 939 PDF objects out of 1000 (max. 8388607)
+ 147 named destinations out of 1000 (max. 500000)
+ 536 words of extra memory for PDF output out of 10000 (max. 10000000)
 

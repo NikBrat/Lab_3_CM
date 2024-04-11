@@ -58,8 +58,8 @@ def plotting(x, y, name, option, y2=None, y3=None):
             plt.title('Графики модуля образа $\hat{g}$(\u03BD) и отфильтрованного сигнала')
             plt.grid()
             plt.legend(loc='best')
-    # plt.show()
-    fig.savefig(f'{name}'.replace('.', ','), dpi=200)
+    plt.show()
+    # fig.savefig(f'{name}'.replace('.', ','), dpi=200)
     plt.close(fig)
 
 
@@ -113,16 +113,16 @@ noisy_signal = np.vectorize(noisy_signal)
 rng = np.random.default_rng(27)
 rnd = rng.random((interval.size,))
 
-bs = [4]
+bs = [2]
 clp_freqs = [300]
-cs = [2]
+cs = [4]
 ds = [2]
-cf = -0.3
-cl = -0.153
-cf2 = -0.8044
-cl2 = -0.72
-cf3 = -1.3
-cl3 = -1.21
+cf = -0.5
+cl = -0.2
+cf2 = -2.99
+cl2 = -1.5
+cf3 = -2.
+cl3 = -1.3
 cf4 = -2.07
 cl4 = -1.922
 cf5 = -2.67
@@ -136,13 +136,21 @@ for b in bs:
             # for clp_freq in clp_freqs:
             fourier = fourier_transformation(received)(frequencies)
             fourier_clipped = np.copy(fourier)
-            bg = np.where(frequencies <= cf)[0][-1]
-            fourier_clipped[bg:-bg+1] = 0.0
             # bg = np.where(frequencies <= cf)[0][-1]
-            # ed = np.where(frequencies >= cl)[0][0]
-            # fourier_clipped[bg:ed] = 0.0
-            # fourier_clipped[-ed:-bg] = 0.0
-            plotting(frequencies, np.abs(fourier),f'Fourier_Image_{b}_{c}_{d}_{cf}', 2, y2=np.abs(fourier_clipped))
-            plotting(frequencies, np.abs(fourier_clipped), f'Fourier_Image_Comparison_{b}_{c}_{d}_{cf}', 4, y2=np.abs(original_fourier))
+            # fourier_clipped[bg:-bg+1] = 0.0
+            bg = np.where(frequencies <= cf)[0][-1]
+            ed = np.where(frequencies >= cl)[0][0]
+            bg2 = np.where(frequencies <= cf2)[0][-1]
+            ed2 = np.where(frequencies >= cl2)[0][0]
+            bg3 = np.where(frequencies <= cf3)[0][-1]
+            ed3 = np.where(frequencies >= cl3)[0][0]
+            fourier_clipped[bg:ed] = 0.0
+            fourier_clipped[-ed:-bg] = 0.0
+            fourier_clipped[bg2:ed2] = 0.0
+            fourier_clipped[-ed2:-bg2-1] = 0.0
+            #fourier_clipped[bg3:ed3] = 0.0
+            #fourier_clipped[-ed3:-bg3] = 0.0
+            plotting(frequencies, np.abs(fourier),f'Fourier_Image_{b}_{c}_{d}_{cf}_{cl}_{cf2}_{cl2}', 2, y2=np.abs(fourier_clipped))
+            plotting(frequencies, np.abs(fourier_clipped), f'Fourier_Image_Comparison_{b}_{c}_{d}_{cf}_{cl}_{cf2}_{cl2}', 4, y2=np.abs(original_fourier))
             fourier_inverse = fourier_transformation_inverse(fourier_clipped)(interval)
-            plotting(interval, received, f'Cleaned_{b}_{c}_{d}_{cf}', 3,  y2=fourier_inverse, y3=original)
+            plotting(interval, received, f'Cleaned_{b}_{c}_{d}_{cf}_{cl}_{cf2}_{cl2}', 3,  y2=fourier_inverse, y3=original)

@@ -216,33 +216,33 @@
     \label{fig:noisy_0_2_4}
 \end{figure}
 
-На основе графиков можно сделать вывод, что параметр $c$ влияет на амплитуду зашумленного сигнала, параметр $d$ --- частоту сигнала. Теперь оценим влияние этих параметров на фильтрацию при исключении частот $\nu_0\in[0.156, 0.805]$:
+На основе графиков можно сделать вывод, что параметр $c$ влияет на амплитуду зашумленного сигнала, параметр $d$ --- частоту сигнала. Теперь оценим влияние этих параметров на фильтрацию при исключении частот $\nu_0\in[0.22, 1.0] \cup [2.7, 2.99]$ Гц:
 
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_0_2_2_-0,805:-0,156.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_0_2_2_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=0$,  $c=2$,  $d=2$}
     \label{fig:four_0_2_2}
 \end{figure}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-0,805:-0,156.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_0_2_2_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=0$,  $c=2$,  $d=2$}
     \label{fig:fourc_0_2_2}
 \end{figure}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_0_4_2_-0,805:-0,156.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_0_4_2_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=0$,  $c=4$,  $d=2$}
     \label{fig:four_0_4_2}
 \end{figure}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-0,805:-0,156.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_0_4_2_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=0$,  $c=4$,  $d=2$}
     \label{fig:fourc_0_4_2}
 \end{figure}
@@ -251,30 +251,30 @@
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_0_2_4_-0,805:-0,156.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_0_2_4_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Графики модулей Фурье-образа $f(t)$ и отфильтрованного сигнала при $b=0$,  $c=2$,  $d=4$}
     \label{fig:four_0_2_4}
 \end{figure}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-0,805:-0,156.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_0_2_4_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при  $b=0$,  $c=2$,  $d=4$}
     \label{fig:fourc_0_2_4}
 \end{figure}
 
-Внимательно рассмотрев графики модулей Фурье-образов, можно прийти к выводу, что параметр $c$ прямо пропорционально влияет на значение модуля при частотах ниже $0.5$ Гц. Параметр $d$ при возрастании уменьшает влияние частот ниже 0.5 Гц и увеличивает влияние частот диапазона $\nu_0 \in[0.5, 1]$. При этом оба параметра увеличивают шум графика модуля образа Фурье для интервала остальных частот. Подобные выводы можно также сделать, взглянув на функцию $g(t)$.
+Скачки на графике модуля Фурье-образа обуславливаются доминирующими частотами. При увеличении параметра $d$ увеличивается частота зашумленного сигнала, на Фурье-образе это отражается смещением пиков и шумов в сторону более высоких частот. Параметр $c$ влияет на амплитуду сигнала, поэтому при увеличении параметра $c$ увеличиваются значения модуля Фурье-образа практически на всём диапазоне частот, особенно в окрестности основной частоты сигнала. Поэтому для фильтрации сигнала мы должны исключить данную окрестность и затем попробовать снизить колебания отфильтрованного графика обнулением высоких частот: 
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_0_2_2_-0,805:-0,156.png}
+    \includegraphics[scale=0.75]{media/1 task/specific_freq/Cleaned_0_2_2_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=0$,  $c=2$,  $d=2$}
     \label{fig:cleaned_0_2_2}
 \end{figure}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_0_4_2_-0,805:-0,156.png}
+    \includegraphics[scale=0.75]{media/1 task/specific_freq/Cleaned_0_4_2_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=0$,  $c=4$,  $d=2$}
     \label{fig:cleaned_0_4_2}
 \end{figure}
@@ -283,16 +283,18 @@
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_0_2_4_-0,805:-0,156.png}
+    \includegraphics[scale=0.75]{media/1 task/specific_freq/Cleaned_0_2_4_-1,0_-0,22_-2,99_-2,7.png}
     \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=0$,  $c=2$,  $d=4$}
     \label{fig:cleaned_0_2_4}
 \end{figure}
 
-Сравнение графиков подтверждает ранее сделанные нами выводы. Так как параметр $c$ оказывает влияние на амплитуду зашумленного сигнала, то у графика отфильтрованного сигнала также увеличиваются значения пиков. Параметр $d$, в свою очередь, оказывает влияние на частоту зашумленного и отфильтрованного сигналов, так что при увеличении значения этого параметра увеличивается частота отфильтрованного сигнала, и сигнал становится менее сглаженным.
+Сравнение графиков подтверждают ранее сделанные выводы. Увеличение параметра $c$ приводит к увеличению значений пиков отфильтрованного сигнала. При увеличении параметра $b$ увеличиваются колебания на <<площадках>> сигнала из-за увеличения частоты зашумленного сигнала. 
+
+\clearpage
 
 \subsubsection{Влияние параметра $b$}\label{b_ex}
 
-Теперь рассмотрим влияние параметра $b$ на фильтрацию. Зафиксируем параметры $c=4, d=2$ и частоты  $\nu_0 \in [0.153, 0.8]$
+Теперь рассмотрим влияние параметра $b$ на фильтрацию. Зафиксируем параметры $c=4, d=2$ и частоты  $\nu_0 \in [0.22, 0.6] \cup [1.6, 2.99]$
 
 \begin{figure}[ht!]
     \centering
@@ -323,7 +325,7 @@
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_1_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_1_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=1$,  $c=4$,  $d=2$}
     \label{fig:four_1_4_2}
 \end{figure}
@@ -331,14 +333,14 @@
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_1_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=1$,  $c=4$,  $d=2$}
     \label{fig:fourc_1_4_2}
 \end{figure}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$,  $c=4$,  $d=2$}
     \label{fig:four_2_4_2}
 \end{figure}
@@ -347,7 +349,7 @@
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$,  $c=4$,  $d=2$}
     \label{fig:fourc_2_4_2}
 \end{figure}
@@ -356,14 +358,14 @@
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_3_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_3_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Графики модулей Фурье-образа $f(t)$ и отфильтрованного сигнала при $b=3$,  $c=4$,  $d=2$}
     \label{fig:four_3_4_2}
 \end{figure}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_3_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при  $b=3$,  $c=4$,  $d=2$}
     \label{fig:fourc_3_4_2}
 \end{figure}
@@ -372,14 +374,14 @@
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_1_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_1_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=1$,  $c=4$,  $d=2$}
     \label{fig:cleaned_1_4_2}
 \end{figure}
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_2_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_2_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$,  $c=4$,  $d=2$}
     \label{fig:cleaned_2_4_2}
 \end{figure}
@@ -388,86 +390,169 @@
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_3_4_2_-0,8:-0,153.png}
+    \includegraphics[scale=0.85]{media/1 task/specific_freq/Cleaned_3_4_2_-0,6_-0,22_-2,99_-1,6.png}
     \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=3$,  $c=4$,  $d=2$}
     \label{fig:cleaned_3_4_2}
 \end{figure}
 
-При увеличении $b$, как говорилось ранее, увеличивается влияние хаотического шума, поэтому при одинаковом фильтрационном интервале отфильтрованный Фурье-образ начинает удаляться по норме от образа исходного сигнала (см. рисунки \ref{fig:fourc_1_4_2}, \ref{fig:fourc_2_4_2}, \ref{fig:fourc_3_4_2}). Это приводит к тому, что у отфильтрованного сигнала увеличиваются значения пиков при одном и том же значении $t$.
+При увеличении $b$, как говорилось ранее, увеличивается влияние хаотического шума, поэтому при одинаковом фильтрационном интервале отфильтрованный Фурье-образ начинает удаляться по норме от образа исходного сигнала (см. рисунки \ref{fig:fourc_1_4_2}, \ref{fig:fourc_2_4_2}, \ref{fig:fourc_3_4_2}). Это приводит к тому, что у отфильтрованного сигнала при одном и том же значении $t$ значение отфильтрованного сигнала начинает увеличиваться или уменьшаться.
 
 \subsubsection{Подбираем правильные частоты среза }
 
-Возьмём сигнал с параметрами $b=2, c=4, d=2$ из прошлого пункта \ref{b_ex}. График сигнала представлен на рисунке \ref{fig:noisy_2_4_2}. Нами уже был рассмотрен промежуток $\nu_0 \in [0.153, 0.8]$. Теперь попробуем подобрать частоты таким образом, чтобы максимально приблизить его к исходному сигналу $g(t)$.
+Возьмём сигнал с параметрами $b=2, c=4, d=2$ из прошлого пункта \ref{b_ex}. График сигнала представлен на рисунке \ref{fig:noisy_2_4_2}. Нами уже был рассмотрен промежуток $\nu_0 \in [0.22, 0.6] \cup [1.6, 2.99]$. Теперь попробуем подобрать частоты таким образом, чтобы максимально приблизить его к исходному сигналу $g(t)$.
 
 \clearpage
 
 \begin{figure}[ht!]
     \centering
     \includegraphics[scale=0.65]{media/1 task/specific_freq/Image_2_4_2_Begi.png}
-    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и сигнала при  $b=2$,  $c=4$,  $d=2$}
+    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и зашумленного сигнала при  $b=2$,  $c=4$,  $d=2$}
     \label{fig:fourcorig_2_4_2}
 \end{figure}
 
-Для начала попробуем более точечнее отфильтровать частоты из уже использованного диапазона. Интервалы частот, которые мы отбросим:
-
-\begin{center}
-    $\nu_0 \in [0.153, 0.65] \cup [0.72, 0.8044]$
-\end{center}
+Для начала уберём влияние синусоиды и поэкспериментируем с высокими частотами:
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72.png}
-    \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$,  $c=4$,  $d=2$}
-    \label{fig:four_2_4_2_2intervals}
-\end{figure}
-
-\begin{figure}[ht!]
-    \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72.png}
-    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$,  $c=4$,  $d=2$}
-    \label{fig:fourc_2_4_2_2intervlas}
-\end{figure}
-
-\begin{figure}[ht!]
-    \centering
-    \includegraphics[scale=0.65]{media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72.png}
-    \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$,  $c=4$,  $d=2$}
-    \label{fig:cleaned_2_4_2_2intervals}
-\end{figure}
-
-Теперь попробуем дополнительно отбросить некоторые высокие частоты. Тогда интервал частот, которые мы отбросим, будут выглядеть следующим образом:
-
-\begin{center}
-    $\nu_0 \in [0.153, 0.65] \cup [0.72, 0.8044] \cup [1.21, 1.3] \cup [1.922, 2.07] \cup [2.47, 2.67]$
-\end{center}
-
-\begin{figure}[ht!]
-    \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png}
-    \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$,  $c=4$,  $d=2$}
-    \label{fig:four_2_4_2_5intervals}
-\end{figure}
-
-\begin{figure}[ht!]
-    \centering
-    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png}
-    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$,  $c=4$,  $d=2$}
-    \label{fig:fourc_2_4_2_5intervlas}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,55.png}
+    \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [0.55, 2.99]$}
+    \label{fig:four_2_4_2_3}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[ht!]
     \centering
-    \includegraphics[scale=0.65]{media/1 task/specific_freq/Cleaned_2_4_2_-0,65:-0,153_-0,8044:-0,72_-1,3:-1,21_-2,07:-1,922_-2,67:-2,47.png}
-    \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$,  $c=4$,  $d=2$}
-    \label{fig:cleaned_2_4_2_5intervals}
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,55.png}
+    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [0.55, 2.99]$}
+    \label{fig:fourc_2_4_2_3}
 \end{figure}
 
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.65]{media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,55.png}
+    \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [0.55, 2.99]$}
+    \label{fig:cleaned_2_4_2_3}
+\end{figure}
 
-К сожалению, с помощью жёсткой фильтрации нам не удалось добиться того, чтобы отфильтрованный сигнал был бы идентичен или близок к исходному сигналу. Перебрав множество комбинаций интервалов, было решено остановится на интервалах, изображенных на рисунках \ref{fig:cleaned_2_4_2}, \ref{fig:cleaned_2_4_2_2intervals} и \ref{fig:cleaned_2_4_2_5intervals}, так как при них мы смогли добиться наилучших результатов. Стоит отметить, что наиболее сглаженный сигнал был получен при фильтрации 5 интервалов. Однако мы не можем выделить наиболее близкий к исходному сигнал, потому что во всех 3 случаях мы получили очень похожие между собой сигналы, которые могут отличаться значениями в некоторые моменты времени.
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-0,8.png}
+    \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [0.8, 2.99]$}
+    \label{fig:four_2_4_2_1}
+\end{figure}
 
-Жёсткая фильтрация не может эффективно сглаживать искажения, которые одновременно вызваны синусоидальным и хаотическим шумами. Подобная комбинация искажает Фурье-образ таким образом, что его фильтрация только методом исключения определённых диапазонов частот не позволяет качественно избавиться от помех. Исключение широкого диапазона частот приводит к тому, что мы теряем частоты, которые играли важную роль в оригинальном сигнале. В итоге мы получаем сигнал, имеющий черты исходного, но не являющейся результатом, который можно назвать удовлетворительным.
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-0,8.png}
+    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [0.8, 2.99]$}
+    \label{fig:fourc_2_4_2_1}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.65]{media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-0,8.png}
+    \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [0.8, 2.99]$}
+    \label{fig:cleaned_2_4_2_1}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-0,5_-0,2_-2,99_-1,0.png}
+    \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [1.0, 2.99]$}
+    \label{fig:four_2_4_2_2}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-0,5_-0,2_-2,99_-1,0.png}
+    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [1.0, 2.99]$}
+    \label{fig:fourc_2_4_2_2}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.65]{media/1 task/specific_freq/Cleaned_2_4_2_-0,5_-0,2_-2,99_-1,0.png}
+    \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 0.5] \cup [1.0, 2.99]$}
+    \label{fig:cleaned_2_4_2_2}
+\end{figure}
+
+\clearpage
+
+Нам удалось получить приемлимый результат. Важно отметить, что при уменьшении левой границы интервала для фильтрации высоких частот мы сглаживаем график отфильтрованного сигнала, но при чрезмерном уменьшении частоты среза колебания начинают увеличиваться, так как у нас остаётся небольшая окрестность частоты, с которой начинает колебаться сигнал (рисунок \ref{fig:cleaned_2_4_2_3}).
+
+Теперь попробуем увеличить диапазон частот, которые мы исключаем для избавления от синусоидальных шумов ($\nu_0 \in [0.2, 1.2]$):
+
+\vfill
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png}
+    \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.7, 2.99]$}
+    \label{fig:four_2_4_2_4}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png}
+    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.7, 2.99]$}
+    \label{fig:fourc_2_4_2_4}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.65]{media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,7.png}
+    \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.7, 2.99]$}
+    \label{fig:cleaned_2_4_2_4}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png}
+    \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.5, 2.99]$}
+    \label{fig:four_2_4_2_5}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png}
+    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.5, 2.99]$}
+    \label{fig:fourc_2_4_2_5}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.65]{media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,5.png}
+    \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.5, 2.99]$}
+    \label{fig:cleaned_2_4_2_5}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png}
+    \caption{Графики модулей Фурье-образа $u(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.3, 2.99]$}
+    \label{fig:four_2_4_2_6}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.55]{media/1 task/specific_freq/Fourier_Image_Comparison_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png}
+    \caption{Сравнительные графики модулей Фурье-образа $g(t)$ и отфильтрованного сигнала при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.3, 2.99]$}
+    \label{fig:fourc_2_4_2_6}
+\end{figure}
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[scale=0.65]{media/1 task/specific_freq/Cleaned_2_4_2_-1,2_-0,2_-2,99_-2,7_-2,7_-1,3.png}
+    \caption{Графики  $u(t)$, отфильтрованного и исходного сигналов при $b=2$, $c=4$, $d=2$; $\nu_0 \in [0.2, 1.2] \cup [1.3, 2.99]$}
+    \label{fig:cleaned_2_4_2_6}
+\end{figure}
+
+\clearpage
+
+Увеличение диапазона низких частот приводит к сглаживанию скачков при $t=-2, 5$. При увеличении диапазона высоких частот для фильтрации мы приходим выводу, аналогичному для рисунков \ref{fig:cleaned_2_4_2_3}, \ref{fig:cleaned_2_4_2_1}, \ref{fig:cleaned_2_4_2_2}.
+
+После фильтрации зашумленного сигнала при разных частотах среза можно сказать, что отбрасывание нескольких диапазонов частот заметно сглаживает шумы и позволяет приблизить сигнал к исходному и мы позволяет определить примерый вид сигнала $g(t)$. Можно предположить, что для более точного приближения необходимо <<обнулять>> меньшие окрестности определённых частот. Но при уменьшении диапазона высоких частот можно наблюдать увеличение колебаний сигнала, поэтому нельзя однозначно утверждать, что возможно полное избавление от шумов и приведение сигнала к исходному.
 \clearpage
 
 \subsection{Низкие частоты}
